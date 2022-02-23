@@ -35,6 +35,7 @@ namespace AddressBook.Models
 
         public DateTime Created { get; set; }
 
+        public int MyProperty { get; set; }
 
         [NotMapped]
         [Display(Name = "Image")]
